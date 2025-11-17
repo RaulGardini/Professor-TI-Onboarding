@@ -1,0 +1,15 @@
+﻿# Arquivos com segredos (NUNCA vão pro GitHub)
+.env
+appsettings.json
+appsettings.Development.json
+*.user
+
+# Pastas geradas automaticamente
+bin/
+obj/
+.vs/
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

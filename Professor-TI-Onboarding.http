@@ -1,0 +1,6 @@
+@Professor_TI_Onboarding_HostAddress = http://localhost:5162
+
+GET {{Professor_TI_Onboarding_HostAddress}}/ProfessorTIOnboarding/
+Accept: application/json
+
+###
