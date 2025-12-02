@@ -1,6 +1,5 @@
 ﻿# Arquivos com segredos (NUNCA vão pro GitHub)
 .env
-appsettings.json
 appsettings.Development.json
 *.user
 

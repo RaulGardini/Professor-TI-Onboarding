@@ -1,8 +1,8 @@
-﻿# 🎓 Professor TI Onboarding
+﻿# Professor TI Onboarding
 
 API simples de chatbot para onboarding em TI usando OpenAI.
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 ### 1. Pré-requisitos
 - .NET 8.0 ou superior
@@ -35,7 +35,7 @@ dotnet run
 
 Acesse o Swagger em: `https://localhost:PORTA/swagger`
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 ├── Controllers/      # Endpoints da API
 ├── Services/         # Lógica de negócio
@@ -44,12 +44,12 @@ Acesse o Swagger em: `https://localhost:PORTA/swagger`
 └── Program.cs        # Configuração inicial
 ```
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - ASP.NET Core Web API
 - OpenAI API (GPT-4o-mini)
 - DotNetEnv
 
-## 📝 Licença
+## Licença
 
 MIT

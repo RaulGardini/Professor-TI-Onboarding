@@ -9,7 +9,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// ADICIONE ESTA LINHA - Configuração do CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
@@ -20,12 +19,10 @@ builder.Services.AddCors(options =>
     });
 });
 
-// registra o agente como Singleton
 builder.Services.AddSingleton<OpenAIAgentService>();
 
 var app = builder.Build();
 
-// ADICIONE ESTA LINHA - Usar o CORS (ANTES de MapControllers)
 app.UseCors("AllowReactApp");
 
 app.UseSwagger();
